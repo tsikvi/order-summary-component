@@ -6,9 +6,9 @@
 <img src="Screenshot.png">
 
 <h3>Links</h3>
-<a href="">Solution URL </a>
+<a href="https://www.frontendmentor.io/solutions/responsive-web-page-using-flexbox-and-media-queries-t8tU4MC_4S">Solution URL </a>
 <br>
-<a href=""> Live Site URL</a>
+<a href="https://tsikvi.github.io/order-summery-component/"> Live Site URL</a>
 
 <h3>Built with</h3>
 
