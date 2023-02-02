@@ -1,0 +1,222 @@
+body {
+    background-color: #F2F2F2;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-container {
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    margin-top: 102px;
+}
+
+.container-image {
+    width: 100%;
+    height: 220px;
+    border-radius: 20px 20px 0 0;
+}
+
+.title {
+    width: 354px;
+    height: 37px;
+    margin: auto;
+    margin-top: 45px;
+    color: #1F2E55;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 37px;
+    text-align: center;
+}
+
+.description {
+    width: 354px;
+    height: 78px;
+    margin: auto;
+    margin-top: 17px;
+    color: #717FA6;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    text-align: center;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 354px;
+    height: 98px;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+}
+
+.price-container img {
+    margin-left: 24px;
+}
+
+.annual-plan {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 20px;
+}
+
+.plan {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+
+.price {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+
+.change {
+    margin-left: 92px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+}
+
+.change:hover {
+    cursor: pointer;
+    color: #766CF1;
+}
+
+.buttons {
+    width: 354px;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.payment {
+    width: 100%;
+    height: 50px;
+    border-radius: 11px;
+    border: none;
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.payment:hover {
+    cursor: pointer;
+    background-color: #766CF1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.cancel {
+    /* width: 96px; */
+    height: 20px;
+    margin: auto;
+    margin-top: 32px;
+    margin-left: 129px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #717FA6;
+    border: none;
+    background-color: inherit;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: #1F2E55;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url("./images/pattern-background-mobile.svg");
+
+    }
+
+    .main-container {
+        width: 327px;
+        height: 567px;
+    }
+
+    .title {
+        width: 263px;
+        height: 29px;
+        font-size: 22px;
+        margin-top: 32px;
+    }
+
+    .container-image {
+        height: 160px;
+    }
+
+    .description {
+        width: 263px;
+        height: 75px;
+        margin-top: 16px;
+    }
+
+    .price-container {
+        margin-top: 24px;
+        width: 279px;
+        height: 81px;
+    }
+
+    .annual-plan {
+        gap: 3px;
+    }
+
+    .plan {
+        font-size: 14px;
+        line-height: 18.52px;
+    }
+
+    .price {
+        font-size: 14px;
+        line-height: 18.52px;
+    }
+
+    .change {
+        margin-left: 44px;
+        font-size: 13px;
+        line-height: 17.2px;
+    }
+
+    .buttons {
+        width: 279px;
+        margin-top: 24px;
+    }
+
+    .payment {
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+    .cancel {
+        margin-top: 24px;
+        margin-left: 88px;
+
+    }
+}
